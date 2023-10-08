@@ -1,0 +1,588 @@
+{
+    "apis": [
+		{
+			"apiName": "homes",
+			"className": "HMHomeManager"
+		},
+		{
+			"apiName": "authorizationStatus",
+			"className": "HMHomeManager"
+		},
+		{
+			"apiName": "advertisingIdentifier",
+			"className": "ASIdentifierManager"
+		},
+		{
+			"apiName": "isAdvertisingTrackingEnabled",
+			"className": "ASIdentifierManager"
+		},
+		{
+			"apiName": "requestTrackingAuthorizationWithCompletionHandler:",
+			"className": "ATTrackingManager"
+		},
+		{
+			"apiName": "trackingAuthorizationStatus",
+			"className": "ATTrackingManager"
+		},
+		{
+			"apiName": "BSSID",
+			"className": "NEHotspotNetwork"
+		},
+		{
+			"apiName": "SSID",
+			"className": "NEHotspotNetwork"
+		},
+		{
+			"apiName": "fetchCurrentWithCompletionHandler:",
+			"className": "NEHotspotNetwork"
+		},
+		{
+			"apiName": "authorizationStatus",
+			"className": "CLLocationManager"
+		},
+		{
+			"apiName": "requestTemporaryFullAccuracyAuthorizationWithPurposeKey:completion:",
+			"className": "CLLocationManager"
+		},
+		{
+			"apiName": "locationServicesEnabled",
+			"className": "CLLocationManager"
+		},
+		{
+			"apiName": "requestTemporaryFullAccuracyAuthorizationWithPurposeKey:",
+			"className": "CLLocationManager"
+		},
+		{
+			"apiName": "requestAlwaysAuthorization",
+			"className": "CLLocationManager"
+		},
+		{
+			"apiName": "requestWhenInUseAuthorization",
+			"className": "CLLocationManager"
+		},
+		{
+			"apiName": "startUpdatingLocation",
+			"className": "CLLocationManager"
+		},
+		{
+			"apiName": "requestLocation",
+			"className": "CLLocationManager"
+		},
+		{
+			"apiName": "geocodeAddressString:inRegion:preferredLocale:completionHandler:",
+			"className": "CLGeocoder"
+		},
+		{
+			"apiName": "geocodePostalAddress:completionHandler:",
+			"className": "CLGeocoder"
+		},
+		{
+			"apiName": "geocodePostalAddress:preferredLocale:completionHandler:",
+			"className": "CLGeocoder"
+		},
+		{
+			"apiName": "reverseGeocodeLocation:completionHandler:",
+			"className": "CLGeocoder"
+		},
+		{
+			"apiName": "authorizationStatusForType:",
+			"className": "HKHealthStore"
+		},
+		{
+			"apiName": "requestAuthorizationToShareTypes:readTypes:completion:",
+			"className": "HKHealthStore"
+		},
+		{
+			"apiName": "executeQuery:",
+			"className": "HKHealthStore"
+		},
+		{
+			"apiName": "isStepCountingAvailable",
+			"className": "CMPedometer"
+		},
+		{
+			"apiName": "isDistanceAvailable",
+			"className": "CMPedometer"
+		},
+		{
+			"apiName": "isFloorCountingAvailable",
+			"className": "CMPedometer"
+		},
+		{
+			"apiName": "isPaceAvailable",
+			"className": "CMPedometer"
+		},
+		{
+			"apiName": "isCadenceAvailable",
+			"className": "CMPedometer"
+		},
+		{
+			"apiName": "isPedometerEventTrackingAvailable",
+			"className": "CMPedometer"
+		},
+		{
+			"apiName": "queryPedometerDataFromDate:toDate:withHandler:",
+			"className": "CMPedometer"
+		},
+		{
+			"apiName": "startPedometerUpdatesFromDate:withHandler:",
+			"className": "CMPedometer"
+		},
+		{
+			"apiName": "startActivityUpdatesToQueue:withHandler:",
+			"className": "CMMotionActivityManager"
+		},
+		{
+			"apiName": "authorizationStatus",
+			"className": "CMMotionActivityManager"
+		},
+		{
+			"apiName": "stopAccelerometerUpdates",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "isAccelerometerAvailable",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "startAccelerometerUpdates",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "startAccelerometerUpdatesToQueue:withHandler:",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "authorizationStatusForEntityType:",
+			"className": "EKEventStore"
+		},
+		{
+			"apiName": "requestAccessToEntityType:completion:",
+			"className": "EKEventStore"
+		},
+		{
+			"apiName": "fetchAssetsWithBurstIdentifier:options:",
+			"className": "PHAsset"
+		},
+		{
+			"apiName": "fetchAssetsWithALAssetURLs:options:",
+			"className": "PHAsset"
+		},
+		{
+			"apiName": "fetchAssetCollectionsWithLocalIdentifiers:options:",
+			"className": "PHAssetCollection"
+		},
+		{
+			"apiName": "fetchAssetCollectionsContainingAsset:withType:options:",
+			"className": "PHAssetCollection"
+		},
+		{
+			"apiName": "fetchAssetCollectionsWithALAssetGroupURLs:options:",
+			"className": "PHAssetCollection"
+		},
+		{
+			"apiName": "fetchMomentsInMomentList:options:",
+			"className": "PHAssetCollection"
+		},
+		{
+			"apiName": "fetchMomentsWithOptions:",
+			"className": "PHAssetCollection"
+		},
+		{
+			"apiName": "transientAssetCollectionWithAssets:title:",
+			"className": "PHAssetCollection"
+		},
+		{
+			"apiName": "transientAssetCollectionWithAssetFetchResult:title:",
+			"className": "PHAssetCollection"
+		},
+		{
+			"apiName": "fetchCollectionListsContainingCollection:options:",
+			"className": "PHCollectionList"
+		},
+		{
+			"apiName": "fetchCollectionListsWithLocalIdentifiers:options:",
+			"className": "PHCollectionList"
+		},
+		{
+			"apiName": "fetchCollectionListsWithType:subtype:options:",
+			"className": "PHCollectionList"
+		},
+		{
+			"apiName": "fetchMomentListsWithSubtype:containingMoment:options:",
+			"className": "PHCollectionList"
+		},
+		{
+			"apiName": "fetchMomentListsWithSubtype:options:",
+			"className": "PHCollectionList"
+		},
+		{
+			"apiName": "transientCollectionListWithCollections:title:",
+			"className": "PHCollectionList"
+		},
+		{
+			"apiName": "transientCollectionListWithCollectionsFetchResult:title:",
+			"className": "PHCollectionList"
+		},
+		{
+			"apiName": "requestExportSessionForVideo:options:exportPreset:resultHandler:",
+			"className": "PHImageManager"
+		},
+		{
+			"apiName": "requestAVAssetForVideo:options:exportPreset:resultHandler:",
+			"className": "PHImageManager"
+		},
+		{
+			"apiName": "isSourceTypeAvailable:",
+			"className": "UIImagePickerController"
+		},
+		{
+			"apiName": "fetchAssetsInAssetCollection:options:",
+			"className": "PHAsset"
+		},
+		{
+			"apiName": "fetchAssetsWithLocalIdentifiers:options:",
+			"className": "PHAsset"
+		},
+		{
+			"apiName": "fetchKeyAssetsInAssetCollection:options:",
+			"className": "PHAsset"
+		},
+		{
+			"apiName": "fetchAssetsWithOptions:",
+			"className": "PHAsset"
+		},
+		{
+			"apiName": "fetchAssetsWithMediaType:options:",
+			"className": "PHAsset"
+		},
+		{
+			"apiName": "fetchAssetCollectionsWithType:subtype:options:",
+			"className": "PHAssetCollection"
+		},
+		{
+			"apiName": "requestImageDataForAsset:options:resultHandler:",
+			"className": "PHImageManager"
+		},
+		{
+			"apiName": "requestImageDataAndOrientationForAsset:options:resultHandler:",
+			"className": "PHImageManager"
+		},
+		{
+			"apiName": "requestLivePhotoForAsset:targetSize:contentMode:options:resultHandler:",
+			"className": "PHImageManager"
+		},
+		{
+			"apiName": "requestPlayerItemForVideo:options:resultHandler:",
+			"className": "PHImageManager"
+		},
+		{
+			"apiName": "deleteAssets:",
+			"className": "PHAssetChangeRequest"
+		},
+		{
+			"apiName": "creationRequestForAssetFromImage:",
+			"className": "PHAssetChangeRequest"
+		},
+		{
+			"apiName": "registerChangeObserver:",
+			"className": "PHPhotoLibrary"
+		},
+		{
+			"apiName": "creationRequestForAssetFromImageAtFileURL:",
+			"className": "PHAssetChangeRequest"
+		},
+		{
+			"apiName": "authorizationStatus",
+			"className": "PHPhotoLibrary"
+		},
+		{
+			"apiName": "creationRequestForAssetFromVideoAtFileURL:",
+			"className": "PHAssetChangeRequest"
+		},
+		{
+			"apiName": "authorizationStatusForAccessLevel:",
+			"className": "PHPhotoLibrary"
+		},
+		{
+			"apiName": "changeRequestForAsset:",
+			"className": "PHAssetChangeRequest"
+		},
+		{
+			"apiName": "startRunning",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "stopRunning",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "connectionWithMediaType:",
+			"className": "AVCaptureOutput"
+		},
+		{
+			"apiName": "capturePhotoWithSettings:delegate:",
+			"className": "AVCapturePhotoOutput"
+		},
+		{
+			"apiName": "initWithSession:",
+			"className": "AVCaptureVideoPreviewLayer"
+		},
+		{
+			"apiName": "canSetSessionPreset:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "canAddInput:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "canAddOutput:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "addInputWithNoConnections:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "addOutputWithNoConnections:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "canAddConnection:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "addConnection:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "removeConnection:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "transformedMetadataObjectForMetadataObject:connection:",
+			"className": "AVCaptureOutput"
+		},
+		{
+			"apiName": "deviceInputWithDevice:error:",
+			"className": "AVCaptureDeviceInput"
+		},
+		{
+			"apiName": "deviceWithUniqueID:",
+			"className": "AVCaptureDevice"
+		},
+		{
+			"apiName": "authorizationStatusForMediaType:",
+			"className": "AVCaptureDevice"
+		},
+		{
+			"apiName": "requestAccessForMediaType:completionHandler:",
+			"className": "AVCaptureDevice"
+		},
+		{
+			"apiName": "isTorchModeSupported:",
+			"className": "AVCaptureDevice"
+		},
+		{
+			"apiName": "defaultDeviceWithMediaType:",
+			"className": "AVCaptureDevice"
+		},
+		{
+			"apiName": "setTorchModeOnWithLevel:error:",
+			"className": "AVCaptureDevice"
+		},
+		{
+			"apiName": "isFocusModeSupported:",
+			"className": "AVCaptureDevice"
+		},
+		{
+			"apiName": "layerWithSession:",
+			"className": "AVCaptureVideoPreviewLayer"
+		},
+		{
+			"apiName": "initWithSession:",
+			"className": "AVCaptureVideoPreviewLayer"
+		},
+		{
+			"apiName": "layerWithSessionWithNoConnection:",
+			"className": "AVCaptureVideoPreviewLayer"
+		},
+		{
+			"apiName": "initWithSessionWithNoConnection:",
+			"className": "AVCaptureVideoPreviewLayer"
+		},
+		{
+			"apiName": "defaultDeviceWithDeviceType:mediaType:position:",
+			"className": "AVCaptureDevice"
+		},
+		{
+			"apiName": "addInput:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "removeInput:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "addOutput:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "removeOutput:",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "beginConfiguration",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "commitConfiguration",
+			"className": "AVCaptureSession"
+		},
+		{
+			"apiName": "stopMagnetometerUpdates",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "isMagnetometerAvailable",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "startMagnetometerUpdates",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "startMagnetometerUpdatesToQueue:withHandler:",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "initWithDelegate:queue:options:",
+			"className": "CBCentralManager"
+		},
+		{
+			"apiName": "initWithDelegate:queue:",
+			"className": "CBCentralManager"
+		},
+		{
+			"apiName": "stopDeviceMotionUpdates",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "isDeviceMotionAvailable",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "startDeviceMotionUpdates",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "startDeviceMotionUpdatesToQueue:withHandler:",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "identifierForVendor",
+			"className": "UIDevice"
+		},
+		{
+			"apiName": "pasteboardTypesForItemSet:",
+			"className": "UIPasteboard"
+		},
+		{
+			"apiName": "itemSetWithPasteboardTypes:",
+			"className": "UIPasteboard"
+		},
+		{
+			"apiName": "valuesForPasteboardType:inItemSet:",
+			"className": "UIPasteboard"
+		},
+		{
+			"apiName": "dataForPasteboardType:",
+			"className": "UIPasteboard"
+		},
+		{
+			"apiName": "valueForPasteboardType:",
+			"className": "UIPasteboard"
+		},
+		{
+			"apiName": "string",
+			"className": "UIPasteboard"
+		},
+		{
+			"apiName": "serviceCurrentRadioAccessTechnology",
+			"className": "CTTelephonyNetworkInfo"
+		},
+		{
+			"apiName": "currentRadioAccessTechnology",
+			"className": "CTTelephonyNetworkInfo"
+		},
+		{
+			"apiName": "hostName",
+			"className": "NSProcessInfo"
+		},
+		{
+			"apiName": "enumerateContactsWithFetchRequest:error:usingBlock:",
+			"className": "CNContactStore"
+		},
+		{
+			"apiName": "authorizationStatusForEntityType:",
+			"className": "CNContactStore"
+		},
+		{
+			"apiName": "predicateForContactsMatchingName:",
+			"className": "CNContact"
+		},
+		{
+			"apiName": "predicateForContactsInContainerWithIdentifier:",
+			"className": "CNContact"
+		},
+		{
+			"apiName": "stopGyroUpdates",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "startGyroUpdates",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "isGyroAvailable",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "startGyroUpdatesToQueue:withHandler:",
+			"className": "CMMotionManager"
+		},
+		{
+			"apiName": "canEvaluatePolicy:error:",
+			"className": "LAContext"
+		},
+		{
+			"apiName": "prepareToRecord",
+			"className": "AVAudioRecorder"
+		},
+		{
+			"apiName": "record",
+			"className": "AVAudioRecorder"
+		},
+		{
+			"apiName": "recordAtTime:",
+			"className": "AVAudioRecorder"
+		},
+		{
+			"apiName": "recordForDuration:",
+			"className": "AVAudioRecorder"
+		},
+		{
+			"apiName": "recordAtTime:forDuration:",
+			"className": "AVAudioRecorder"
+		},
+		{
+			"apiName": "pause",
+			"className": "AVAudioRecorder"
+		},
+		{
+			"apiName": "stop",
+			"className": "AVAudioRecorder"
+		}
+	]
+}
